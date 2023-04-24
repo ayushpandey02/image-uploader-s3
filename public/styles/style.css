@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@500&display=swap');
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-flow: column;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .card {
+    background-color: #5b80c1;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width : 25vw
+  }
+  .card:hover{    
+    box-shadow: 26px 22px 34px 0px rgb(189, 189, 189);
+  }
+
+
+
+ h1, label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+  }
+
+  input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  input[type="file"]:hover {
+    border-color: #02338f;
+  }
+
+  button[type="submit"] {
+    background-color: #0041ba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #02338f;
+  }
+  .container{
+    position: fixed;
+    top: 50px;
+    text-align: center;
+  }
